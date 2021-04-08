@@ -1,5 +1,5 @@
 # Fit Shot
-Using the OpenCv, image processing technology, we have provided a virtual mirror (that will make use of the system's camera) for the users using which the user can undergo the “virtual try-on”. While trying on, it performs multiple tasks including detection of the user’s face from video stream, alignment of models, approximating the position of torso and lower body based on face detection and resizing input dress images and dress up using Image Processing. One can see how well the cloth of particular size fit to their body and experience whether or not the colour and other attributes of the clothing matches their liking.<br>
+Using the OpenCv, image processing technology, we have provided a virtual mirror (that will make use of the system's camera) for the users using which the user can undergo the “virtual try-on”. While trying on, it performs multiple tasks including detection of the user’s face from video stream, alignment of models, approximating the position of torso and lower body based on face detection and resizing input dress images and dress up using Image Processing. One can see how well the cloth of particular size fit to their body and experience whether or not the colour and other attributes of the clothing matches their liking.<br><br>
 We have also provided a second module -‘GET YOUR MEASUREMENTS’.This module contains of two parts-  body edge detection and the body measurement.  Under this, the user can get their body edges traced and further, attempt to get their body measurements.The body is automatically detected and then, the edges of the body are detected. These edges then, form an actual sketch of the user’s body. 
 
 
@@ -10,8 +10,8 @@ Along with this, we're also providing a hassle free shopping by introducing a "v
 
 
 ## Use Instructions
-Run the flasktry.py file by double clicking on the file or by typing flasktry.py on terminal. On the terminal you will find the port number on which it is running. On the browser type "http://localhost:'portno'" .. (port no is most of time 5000) and run it. The site will be loaded and On the main page, you can check out various shirts and pants from the navbar. 
-By Clicking 'Predict' you will get options to select various shirts and pants to try on.After that on clicking "TRY" button, it will show you the result with the selected shirt and pant.
+Run the flasktry.py file by double clicking on the file or by typing flasktry.py on terminal. On the terminal you will find the port number on which it is running. On the browser type "http://localhost:'portno'" .. (port no is most of time '5000') and run it. The site will be loaded and On the main page, you can check out various shirts and pants from the navbar. <br><br>
+By Clicking 'Predict' you will get options to select various shirts and pants to try on.After that on clicking "TRY" button, it will show you the result with the selected shirt and pant.<br>
 By Clicking on "Get Measurement" you will be able to get your body measurements done through image processing and edge detection. Once successfully processed, the 2d measurements will begin to appear on the user’s window 
 
 ## Installation
